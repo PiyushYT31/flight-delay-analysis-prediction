@@ -1,0 +1,8 @@
+git init
+git add README.md requirements.txt .gitignore notebooks data results
+git commit -m "Add flight delay prediction mini project"
+git branch -M main
+git remote add origin https://github.com/YOUR-USERNAME/flight-delay-analysis-prediction.git
+git push -u origin main
+
+Replace YOUR-USERNAME. Keep raw CSV data out of Git unless you have checked the dataset terms and file size.
